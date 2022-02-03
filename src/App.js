@@ -34,7 +34,7 @@ function App() {
       <input id='in1' type="text" value={name} placeholder='Enter name' onChange={(e) => setname(e.target.value)}></input>
       <div>
         <br></br>
-        <input id='in1' type="text" value={pass} placeholder='Enter password' onChange={(e) => setpass(e.target.value)}></input>
+        <input id='in1' type="password" value={pass} placeholder='Enter password' onChange={(e) => setpass(e.target.value)}></input>
       </div>
       <button id='btn1' onClick={() => submit()}>submit</button>
       <button id='btn2' onClick={() => Reset()}>reset</button>
